@@ -41,6 +41,8 @@ interface AnalysisResult {
   id: string;
   text: string;
   label: string;
+  emoji: string;
+  color: string;
   score: number;
   date: string;
   emotions: { name: string; value: number }[];
@@ -128,7 +130,7 @@ function App() {
     const steps = ['Tokenizando...', 'Inferencia BERT...', 'Capa Emocional...', 'Finalizando...'];
     for (const step of steps) { setScanStep(step); await new Promise(r => setTimeout(r, 500)); }
     const topRes = simulateAI(text);
-    const result: any = {
+    const result: AnalysisResult = {
       id: Math.random().toString(36).substr(2, 9),
       text,
       label: topRes.label,
@@ -142,6 +144,9 @@ function App() {
         {name: 'Tristeza', value: topRes.label === 'Triste' ? 90 : 10},
         {name: 'Disgusto', value: topRes.label === 'Incómodo' ? 90 : 10},
       ],
+      tone: 'Neural Process',
+      sarcasmProbability: topRes.label === 'Sarcástico' ? 95 : 5,
+      intent: 'Sentiment Analysis',
       recommendation: ''
     };
     result.recommendation = getRecommendation(result);
@@ -193,7 +198,7 @@ function App() {
         <aside className="w-20 lg:w-80 border-r border-white/5 bg-black/60 p-8 flex flex-col z-50">
           <div className="flex items-center gap-4 mb-20">
             <div className="p-4 bg-indigo-600 rounded-3xl"><Network className="w-8 h-8 text-white" /></div>
-            <span className="hidden lg:block font-black text-2xl tracking-tighter uppercase">Cortex</span>
+            <span className="hidden lg:block font-black text-xl tracking-tighter uppercase leading-tight">Análisis de <br /> Sentimientos</span>
           </div>
 
           <nav className="space-y-4 flex-1">
@@ -210,7 +215,7 @@ function App() {
           <div className="max-w-7xl mx-auto">
             {activeTab === 'lab' && (
               <div className="space-y-12">
-                <header><h2 className="text-6xl lg:text-8xl font-black tracking-tighter uppercase italic">Neural <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-white to-indigo-500">Inference</span></h2></header>
+                <header><h2 className="text-6xl lg:text-7xl font-black tracking-tighter uppercase italic leading-none">Análisis de <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-white to-indigo-500">Sentimientos</span></h2></header>
                 <div className="grid grid-cols-1 xl:grid-cols-12 gap-12">
                   <div className="xl:col-span-7 space-y-8">
                     <div className="bg-white/5 p-12 lg:p-16 rounded-[4rem] border border-white/10 relative overflow-hidden group">
