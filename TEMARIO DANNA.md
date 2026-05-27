@@ -270,3 +270,19 @@ Respuesta: ultimo paso
 
 - Cual es el concepto central de la recursividad en programación?
 Respuesta: llamada repetida
+
+## Evaluacion Parcial T03
+- ¿Qué se utiliza para determinar la mejor división en un árbol de decisiones?
+Respuesta: Entropía y ganancia de información.
+
+- ¿Qué métrica se utiliza comúnmente para evaluar un árbol de decisiones?
+Respuesta: Precisión.
+
+- ¿Qué técnica se utiliza para prevenir el sobreajuste en un árbol de decisiones?
+Respuesta: Validación cruzada.
+
+- ¿Qué método se utiliza para construir un árbol de decisiones?
+Respuesta: División binaria
+
+- ¿Cuál es el objetivo principal de un algoritmo de árbol de decisiones?
+Respuesta: Maximizar la precisión.
