@@ -271,7 +271,7 @@ Respuesta: ultimo paso
 - Cual es el concepto central de la recursividad en programación?
 Respuesta: llamada repetida
 
-## Evaluacion Parcial T03
+### Evaluacion Parcial T03
 - ¿Qué se utiliza para determinar la mejor división en un árbol de decisiones?
 Respuesta: Entropía y ganancia de información.
 
@@ -286,3 +286,77 @@ Respuesta: División binaria
 
 - ¿Cuál es el objetivo principal de un algoritmo de árbol de decisiones?
 Respuesta: Maximizar la precisión.
+
+## Desarrollo Humano
+
+###  Evaluacion parcial T01
+
+- El trabajo en equipo es:
+Respuesta: El esfuerzo integrado de un grupo de personas para realizar un proyecto
+
+- ¿el lider mira a largo o corto plazo?
+Respuesta: Largo plazo, su visión siempre debe ser mirar al futuro
+
+- El equilibrio personal permite lograr.
+Respuesta: Tranquilida y bienestar en todo tipó de situaciones.
+
+-La responsabilida es.
+Respuesta: Aceptar las consecuencias de nuestros actos y decisiones
+
+- "Tres profesionales acuerdan terminar un trabajo en el menor posible, se oragnizan de acuerdo a sus fortalezas e inician", a esto se le conoce como.
+Respuesta: Trabajo en equipo.
+
+### Evaluacion Parcial T02
+
+- "El jefe estuvo esperando 19 minutos a que el trabajador llegase a la reunión, finalmente llego", en la frase propuesta el valor que practica el jefe es.
+Respuesta: Puntualidad
+
+- La "imagen personal" es.
+Respuesta: Todo el conjunto de cualidades que transmitimos a los demás.
+
+- La ética profesional es el conjunto de.
+Respuesta: Normas y valores que mejoran el desarrollo de las actividades profesionales
+
+- Cuando buscamos trabajo, es importante llevar un documento que permita mostrar nuestros datos y competencias profecionales para el puesto laboral, ¿Cual es?
+Respuesta: El Currículum vitae
+
+- ¿Pör que es importante atreverse a correr riesgos?
+Respuesta: Nos permite crecer como personas al enfretar y supertar nuestros temores.
+
+### Evaluacion Parcial T03
+
+- Las normas morales son necesarias porque.
+Respuesta: Permiten salvaguardar el orden y la seguridad social
+
+- Es un ejemplo del bien y del mal.
+Respuesta: Tomar un medicamento por salud o por adicción 
+
+- El acto moral de define como la acción realizada por.
+Respuesta: Un individuo siendo valorada como buena o mala desde el punto de vista ético.
+
+- Una de las siguientes alternativas no es una cualidad del deber.
+Respuesta: Es secundario.
+
+- Se dice que es la satisfacción o el remordimiento que tiene nuestra conciencia despues de haber realizado un acto.
+Respuesta: Responsabilidad moral.
+
+### Evaluacion Parcial T04
+
+- Son caracteristicas que posee una profesión.
+Respuesta: tiene un nivel de competencia y busca el bien común
+
+- La competencia intelectual es.
+Respuesta: La preparación y capacitación para ejercer su porfesión con didnidad y eficiencia
+
+- se Entiende por trabajo.
+Respuesta: A la actividad Humana que produce un buen servicio que satisface a la comunidad.
+
+- Permitio la presencia de multiples objetos de uso, valores de intercambio y el uso generalizado de pesas y medidas en la mayor parte de los países.
+Respuesta: La grlobalización.
+
+- Se entiende por responsabilidad.
+Respuesta: La obligación de asumir la consecuencia de niuetros actos.
+
+### Control de Video lección T01
+
+- 
